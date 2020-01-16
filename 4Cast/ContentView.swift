@@ -27,10 +27,10 @@ struct ContentView: View {
                         }) {
                             Image(systemName: "globe")
                             .resizable()
-                            .frame(width: 25, height: 25, alignment: .center)
+                            .frame(width: 24, height: 25, alignment: .center)
                             .foregroundColor(.init("textcolor"))
                         }
-                        TextField("Search", text: $cityName)
+                        TextField("Enter city name", text: $cityName)
                             .aspectRatio(contentMode: .fit)
                             .padding(.all, 9.0)
                             .background(
